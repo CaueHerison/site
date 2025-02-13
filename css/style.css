@@ -1,11 +1,49 @@
+/* Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sriracha&display=swap');
 
 
-
-
-
-header {
-    background-color: #232536;
-    height:80px;
-    width: 1440xp;
+body {
+    font-family: 'Roboto',sans-serif; 
 }
 
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0xp;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+
+header, .navbar {
+    background-color: #232536;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    color: white;
+    padding: 0;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbarNavAltMarkup  a ,.subscribe{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
