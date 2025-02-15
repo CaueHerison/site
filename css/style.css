@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sriracha&display=swap');
 
-
 body {
     font-family: 'Roboto',sans-serif; 
 }
@@ -22,6 +21,10 @@ p, li {
 
 /* Barra de Navegação */
 
+header {
+    height: 80px;
+}
+
 header, .navbar {
     background-color: #232536;
 }
@@ -31,19 +34,19 @@ header, .navbar {
     padding-bottom: 0;
 }
 
-.navbar-brand {
-    color: white;
-    padding: 0;
-}
 
-.navbar-brand:hover {
-    color: white;
-}
-
-#navbarNavAltMarkup  a ,.subscribe{
-    color: white;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
+.nav-link {
+    color: ;
     padding: 1rem .8rem;
+}
+
+.subscribe {
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-top: 8px;
 }
