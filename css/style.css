@@ -25,7 +25,7 @@ header {
     height: 80px;
 }
 
-header, .navbar {
+header {
     background-color: #232536;
 }
 
