@@ -8,30 +8,46 @@
 }
 
 
-header  {
+header {
+
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.navbar {
     background-color: #232536;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navbar  li a {
+.nav-list {
     list-style-type: none;
-    text-decoration: none;
-}
-
-.navbar > ul > li {
-    display: inline-block ;
-    padding: 10px;
-   
-}
-
-.navbar > ul > li:hover {
-    background-color: #353853;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
 
 }
 
-.navbar > ul > li > a  {
+.nav-itens {
     color: white;
-    
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-links {
+        text-decoration: none;
+
+}
+
+.nav-itens:hover {
+    background-color: #2f3247;
 }
 
 .button {
