@@ -9,7 +9,7 @@
 
 
 header {
-
+   
 }
 
 .logo a {
@@ -24,6 +24,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.292);
 }
 
 .nav-list {
@@ -58,4 +61,67 @@ header {
     margin-top: 5px;
     font-weight: bolder;
     cursor: pointer;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-itens {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #232536;
+    }
+
+    .mobile-menu .nav-itens {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .nav-links button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+.img-principal {
+    text-align: center;
+}
+
+.img-principal img {
+    width: 98.88vw;
+   min-width: 100%;
 }
