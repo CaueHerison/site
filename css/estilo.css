@@ -124,27 +124,27 @@ header {
 }
 
 .img-principal img {
-    width: 98.88vw;
-   min-width: 100%;
-   position: relative;
+    width: 96.6vw;
+    max-height: 720px;
+    min-width: 100%;
+    position: relative;
 }
 .texto {
     position: absolute;
-    top:32%;
-    max-width: 804px;
+    top:25%;
     text-align: left;
     padding-left: 60px;
     color: white;  
-    width: 98.88vw;
-    min-width: 100%;
+    
 }
 
 .texto > h1 {
-    font-size: 3.3em;
+    font-size: min(150px,4vw);
 }
 
 .texto p:first-child {
     font-family: 'roboto',sans-serif;
+    font-size: min(150px,1.3vw);
 }
 
 .texto a {
@@ -159,6 +159,7 @@ header {
     font-weight: bolder;
     border: none;
     cursor: pointer;
+    font-size: min(150px,1.5vw) ;
 
 }
 
@@ -166,11 +167,24 @@ header {
     font-size: 16px;
     line-height: 25px;
     font-weight: 400;
-
+    font-size: min(150px,1.2vw);
 }
 
-@media screen and (max-width: 1000px) {
-  .texto {
-    display: none;
-  }
+@media screen and (max-width: 730px) {
+    .texto {
+         top: 15%;
+         padding-left: 30px;
+         position: relative;
+        z-index: 10;
+        margin-top: -245px;
+     }
+
+    .config-texto {
+        line-height: 10px;
+    
+    }
+
+    .texto button {
+        padding: 8px 24px;
+    }
 }
