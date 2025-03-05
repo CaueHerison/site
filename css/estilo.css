@@ -170,9 +170,15 @@ header {
     font-size: min(150px,1.2vw);
 }
 
+@media screen and (max-width: 800px) {
+    .texto {
+        position: absolute;
+        top: 20%;
+    }
+}
+
 @media screen and (max-width: 730px) {
     .texto {
-         top: 15%;
          padding-left: 30px;
          position: relative;
         z-index: 10;
