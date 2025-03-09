@@ -366,6 +366,7 @@
     height: 48px;
     margin-left: 25px;
     margin-top: 15px;
+    border-radius: 5px;
     background-color: #FBF6EA;
 }
 
@@ -387,18 +388,62 @@
     width: 232px;
 }
 
+.item-icon:hover {
+    background-color: #FFD050;
+}
+
 .img-secundaria {
-    background-image: url(/imagens/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+    background-image: url(../imagens/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+    display: flex;
+    align-items: end;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    margin-top: 100px;
+    margin-left: 86px;
     width: 949px;
     height: 705px;
 }
 
+.texto-secundaria {
+    width: 706px;
+    height: 486px;
+    padding: 50px;
+    background-color: white;
+    margin-left: 575px;
 
+}
 
+.texto-secundaria p:first-child {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    
+}
 
+.texto-secundaria h2 {
+    width: 575px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.texto-secundaria p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.texto-secundaria button {
+    color: #232536;
+    background-color: #FFD050;
+    margin-top: 25px;
+    padding: 16px 48px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    font-size: 1em ;
+}
 
 
 
