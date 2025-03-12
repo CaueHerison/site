@@ -180,6 +180,7 @@ html, body {
     height: 804px;
     width: 1283px;
     padding: 70px 35px;
+    margin: auto;
 }
 
 .item-flex-1 h2 {
@@ -188,7 +189,7 @@ html, body {
 }
 
 .item-flex-1 img {
-    width: 669px;
+    max-width: 669px;
     height: 352px;
     margin-left: 48px;
 }
@@ -760,9 +761,10 @@ footer {
     line-height: 28px;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 1416px) {
     .img-principal {
-        height: 360px;
+        height: 420px;
+        object-fit: cover;
     }
     
     .texto {
@@ -772,6 +774,7 @@ footer {
     }
 
     .texto p:first-child {
+    
         font-size: 0.7em;
     }
 
