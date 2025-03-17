@@ -511,7 +511,10 @@ html, body {
     margin-top: 100px;
     margin-bottom: 100px;
     justify-content: space-between;
-    
+}
+
+.logo-flex > img {
+    object-fit: contain;
 }
 
 .logo-flex p {
