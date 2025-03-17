@@ -862,7 +862,7 @@ footer {
 
     .item-flex-2 a > p {
         max-width: 450px;
-        width: 90%;
+        width: 100%;
     }
     
     .container-text {
@@ -1054,7 +1054,7 @@ footer {
         margin: auto;
         font-size: 1.5rem;
         max-width: 450px;
-        width: 100%;
+        width: 90%;
     }
     
     .conteudo-2 > img  {
@@ -1092,18 +1092,21 @@ footer {
     
     .text-center {
         max-width: 414px;
-        width: 100%;
+        width: 90%;
     }
     
     .text-center h2 {
         max-width: 450px; 
-        width: 100%;
-        font-size: 2.8rem;
+        width: 80%;
+        font-size: 2.6rem;
+        margin: auto;
     }
     
     .text-center p {
         font-size: 1.3rem;
-        width: 400px;
+        width: 50%;
+        max-width: 400px;
+        margin: auto;
     }
     
     .text-center button {
@@ -1112,55 +1115,79 @@ footer {
     }
     
     footer {
+       height: 700px;
        
     }
     
     .navbar_footer {
        flex-direction: column;
+       align-items: baseline;
+       padding-left: 15px;
     }
     
     .footer_nav_list {
+        margin-top: 15px;
         flex-direction: column;
+        align-items: baseline;
+        gap: 10px;
     }
     
     .footer_nav_itens {
-        
+        margin: -5px;
     }
     
     .footer_nav_links {
-       
-    }
-    
-    .footer_nav_itens:hover {
-        
+       font-size: 1.4rem;
     }
     
     .conteudo_footer {
-       
+        height: 256px;
+        max-width: 700px;
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+        flex-direction: column;
+        padding: 15px 10px 15px 10px;
+        justify-content: none;
+        align-items: none;
     }
     
     .conteudo_footer h2 {
-       
+        max-width: 600px;
+        width: 100%;
+        font-size: 2.8rem ;
+        line-height: 35px;
     }
     
     .conteudo_footer input {
-        
+        max-width: 323px;
+        width: 50%;
+        height: 40px;
+        padding-left: 15px;
     }
     
     .conteudo_footer label > button {
-       
+        padding: 10px 24px;
+        font-size: 1.3rem ;
     }
     
     .footer_social {
+        display: flex;
+        justify-content: space-between;
+        color:white;
+        margin-top: 50px;
+        margin-left: 15px;
        
     }
     
     .footer_social div > img {
-        
+        padding-left: 30px;
+        padding-top: 5px;
     }
     
     .footer_social div > p {
-        
+        font-size: 1.4rem;
+        line-height: 24px;
     }
     
 
