@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+/* Parte responsivo do menu */
+
+@media screen and (max-width: 768px) {
+    .nav-itens {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #232536;
+    }
+
+    .mobile-menu .nav-itens {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .nav-links button {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+/* Parte responsivo do site */
+
+@media screen and (max-width: 768px) {
+
+}
+
