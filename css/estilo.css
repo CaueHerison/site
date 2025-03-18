@@ -176,8 +176,8 @@ html, body {
 .container-flex {
     display: flex;
     flex-direction: row;
-    height: 804px;
-    padding: 70px 35px;
+    height: auto;
+    padding: 35px 35px;
     margin: auto;
 }
 
@@ -279,7 +279,7 @@ html, body {
 .container-text {
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: auto;
     width: 1280px;
     margin: auto;
     background-color: #F4F0F8;
@@ -813,7 +813,6 @@ footer {
 
     .container-flex {
         flex-direction: column;
-        margin-bottom: 900px;
     }
 
     .item-flex-1 h2 {
