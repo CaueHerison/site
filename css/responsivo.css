@@ -1,57 +1,230 @@
 @charset "UTF-8";
 
+/* Reposivo do site 
+Desktop e Grandes telas */
 
-/* Parte responsivo do menu */
 
-@media screen and (max-width: 768px) {
-    .nav-itens {
-        display: none;
+@media screen and (min-width:768px){
+    .img-principal {
+        height: 700px;
+    }
+    
+    .texto {
+        padding: 100px 55px;
+        font-size: 1.8rem;
+    }
+    
+    .texto p:first-child {
+        padding-bottom: 20px;
+    }
+    
+    .texto > h1 {
+        font-size: 5rem;
+        line-height: 55px;
+        padding-bottom: 25px;
+    }
+    
+    .config-texto {
+        font-size: 1.8rem;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .texto > button {
+        margin-top: 20px;
+        padding: 16px 48px ;
+        font-size: 1.8rem;
     }
 
-    .button {
-        display: none;
+    .container-flex {
+        flex-direction: row;
+    }
+    
+    .item-flex-1 h2{
+        font-size: 2.5rem;
+        padding-top: 30px;
+    }
+    
+    .item-flex-1 h3 {
+        max-width: 580px;
+        font-size: 2.2rem;
+        padding-bottom: 15px;
+        line-height: 26px;
+    }
+    
+    .item-flex-1 p {
+        max-width: 590px;
+        font-size: 1.8rem;
+        padding-bottom: 15px;
+        line-height: 25px;
+    }
+    
+    .item-flex-1 > button {
+        padding: 16px 48px ;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+    
+    .item-flex-2 h2 {
+        font-size: 2.5rem;
+        padding-top: 30px;
+    }
+    
+    .item-flex-2 div {
+        max-width: 350px;
+        width: 95%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .item-flex-2 div > a > p:first-child {
+        font-size: 1.5vw;
+    }
+    
+    .item-flex-2 div > a > p {
+        font-size: 2vw;
+        max-width: 340px;
+        width: 90%;
+        line-height: 2.5vw;
+    }
+    
+     .container-text {
+         flex-direction: row;
+     }
+     
+     #text1 {
+         font-size: 1.6rem;
+         padding: 60px;
+     }
+     
+     #text1 p {
+         max-width: 550px;
+         padding-bottom: 15px;
+     }
+     
+     #text1 h2 {
+         font-size: 2.4rem;
+         padding-bottom: 10px;
+     }
+      
+     #text2 {
+         font-size: 1.6rem;
+         padding: 60px;
+     }
+     
+     #text2 h3 {
+         font-size: 2.2rem;
+         padding-bottom: 10px;
+     }
+     
+     .titulo-two {
+        font-size: 2.5rem;
+    }
+    
+    .img-secundaria {
+        height: 705px;
+    }
+    
+    .texto-secundaria {
+        height: 580px;
+        font-size: 1.8rem;
+        padding: 60px 60px 0px 60px;
+    }
+    
+    .texto-secundaria p {
+        max-width: 500px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .texto-secundaria h2 {
+        font-size: 3.5rem;
+        line-height: 45px ;
+        padding-bottom: 10px;
+    }
+    
+    .texto-secundaria button {
+        padding: 16px 48px;
+        font-size: 1.6rem ;
+    }
+    
+    .logo-flex {
+        justify-content: center;
+    }
+    
+    .logo-flex p {
+        padding-left: 10px;
+    }
+    
+    .logo-flex h4 {
+        padding-left: 10px;
     }
 
-    .mobile-menu-icon {
-        display: block;
+    .box-flex {
+        flex-direction: row;
+        padding: 20px;
     }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
+    
+    .conteudo p {
+        max-width: 400px;
+        font-size: 1.8rem;
+        line-height: 26px;
+        padding-bottom: 10px;
     }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
+    
+    .conteudo h2 {
+        max-width: 210px;
+        width: 90%;
+        font-size: 2.6rem; 
+        
+    }
+    
+    .conteudo-2 {
+        border-top:none;
+        border-left: 1px solid rgba(0, 0, 0, 0.66);
+        padding: 20px 30px;
+    }
+    
+    .conteudo-2 > h4 {
+        font-size: 2.4rem;
+        max-width: 500px;
+        width: 90%;
+        padding-bottom: 40px;
+    }
+    .text-center {
+        width: 414px;
         text-align: center;
-        padding-bottom: 1rem;
-        background-color: #232536;
     }
-
-    .mobile-menu .nav-itens {
-        display: block;
-        padding-top: 1.2rem;
+    
+    .text-center h2 {
+        width: 450px;
+        font-size: 3.6rem;
     }
-
-    .mobile-menu .button {
-        display: block;
-        padding: 1rem 2rem;
+    
+    .text-center p {
+        margin-top: 10px;
+        font-size: 1.6rem;
+        line-height: 28px;
     }
-
-    .mobile-menu .nav-links button {
-        width: 100%;
-    }
-
-    .open {
-        display: block;
+    
+    .text-center button {
+        margin-top: 25px;
     }
 }
 
-/* Parte responsivo do site */
 
-@media screen and (max-width: 768px) {
 
-}
 
+
+
+
+
+
+@media screen and (min-width:995px) {
+        .logo-flex {
+            flex-direction: row; 
+            gap: 10px;
+        }
+    }
