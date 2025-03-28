@@ -212,19 +212,218 @@ Desktop e Grandes telas */
     .text-center button {
         margin-top: 25px;
     }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    .navbar_footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .footer_nav_list {
+        flex-direction: row;
+    }
+    
+    .footer_nav_links {
+        font-size: 1.8rem;
+    }
+    
+    .conteudo_footer {
+        height: 256px;
+        flex-direction: row;
+        padding: 30px;
+    }
+    
+    .conteudo_footer h2 {
+        font-size: 2.5rem ;
+    }
+    
+    .conteudo_footer input {
+        height: 56px;
+        padding-left: 20px;
+    }
+    
+    .conteudo_footer label > button {
+        padding: 16px 48px;
+        font-size: 1.6rem ;
+        margin-left: 5px;
+    }
+    
+    .footer_social {
+        padding-top: 25px;
+    }
+    
+    .footer_social div > a > img {
+        padding-left: 10px;
+    }
+    
+    .footer_social div > p {
+        font-size: 1.6rem;
+    }
 }
 
-
-
-
-
-
-
-
-
 @media screen and (min-width:995px) {
-        .logo-flex {
-            flex-direction: row; 
-            gap: 10px;
-        }
+    .logo-flex {
+        flex-direction: row; 
+        gap: 10px;
     }
+}
+
+@media screen and (min-width:1200px) {
+    .logo a {
+        font-size:3.4rem;
+        padding-left: 5px; 
+    }
+
+    .nav-itens {
+        padding: 15px;
+        font-size: 1.8rem;
+    }
+
+    .button {
+        font-size: 1.8rem;
+    }
+
+    .texto {
+        font-size: 1.8rem;
+    }
+
+    .item-flex-1 {
+        margin: 0px auto;
+    }
+
+    .item-flex-1 h2{
+        font-size: 3rem;
+    }
+
+    .item-flex-1 img {
+        width: 669px;
+        height: 352px;
+    }
+
+    .item-flex-1 h3 {
+        max-width: 750px;
+        font-size: 2.5rem;
+        line-height: 30px;
+    }
+
+    .item-flex-1 p {
+        max-width: 620px;
+        font-size: 2rem;
+        padding-bottom: 15px;
+        line-height: 28px;
+    }
+
+    .item-flex-2 {
+        margin: 0px auto;
+    }
+
+    .item-flex-2 h2 {
+        font-size: 3rem;
+    }
+
+   .item-flex-2 div {
+        max-width: 550px;
+        
+    } 
+
+    .item-flex-2 div > a > p:first-child {
+        font-size: 2rem;
+    }
+
+    .item-flex-2 div > a > p {
+        font-size: 2.5rem;
+        line-height: 30px;
+    }
+
+    .outline {
+        margin-left: 152px;
+        margin-right: 0px;
+     }
+
+    .container-text {
+       max-width: 1280px;
+       margin: 0px auto;
+    }
+
+    #text1 {
+        font-size: 1.8rem;
+    }
+
+    #text1 h2 {
+        font-size: 2.5rem;
+    }
+
+    #text2 {
+        font-size: 1.8rem;
+    }
+
+    #text2 h3 {
+        font-size: 2.5rem;
+    }
+
+    .titulo-two {
+        font-size: 3rem;
+    }
+
+    .container-icon {
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    .img-secundaria {
+        height: 705px;
+        width: 949px;
+        margin: 0px auto;
+    }
+    
+    .container-card {
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    .card {
+        height: 324px;
+    }
+
+    .card h3 {
+        line-height: 30px;
+    }
+
+    .box-flex {
+        width: 1280px;
+        margin: 0px auto;
+    } 
+
+    .conteudo {
+        margin: 0px auto;
+    }
+
+    .conteudo-2 {
+       margin: 0px auto;
+       padding: 20px 100px;
+    }
+
+    .footer_nav_itens {
+        padding: 15px;
+        font-size: 1,8rem;
+    }
+
+    .conteudo_footer {
+        height: 256px;
+        max-width: 1280px;
+    } 
+
+    .conteudo_footer h2 {
+        font-size: 2.9rem ;
+    }
+
+    .footer_social div > p {
+        font-size: 1.8rem;
+    }
+
+}
