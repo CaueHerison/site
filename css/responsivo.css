@@ -201,9 +201,11 @@ Desktop e Grandes telas */
     .text-center h2 {
         width: 450px;
         font-size: 3.6rem;
+        padding: 0px;
     }
     
     .text-center p {
+        padding: 0px;
         margin-top: 10px;
         font-size: 1.6rem;
         line-height: 28px;
